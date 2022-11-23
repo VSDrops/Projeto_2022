@@ -32,7 +32,10 @@
     padding: 4%;
     display: table-cell;
     text-align: center;
-    vertical-align: bottom;
+    vertical-align:middle;
+	object-position: center;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .oswald{
@@ -43,7 +46,7 @@
 
 .wrapper {
 	min-height: 100%;
-	min-width: 100%;
+	min-width: 100.9%;
 }
 .containerf{
 	position: fixed;
@@ -68,3 +71,7 @@
   cursor: pointer; /* Add a pointer on hover */
 }
 
+.border-top-radius{
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+}
